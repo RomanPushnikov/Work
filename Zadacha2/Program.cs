@@ -15,3 +15,4 @@ int b = Convert.ToInt32(Console.ReadLine());
 {
     Console.WriteLine("Они одинаковые!");
 }
+
