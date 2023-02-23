@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+Console.Clear();
 
 void PrintRandMatr(double[,] matrix)
 {

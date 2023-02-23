@@ -25,3 +25,28 @@ int[] Array = new int[8];
 FillArray(Array);
 PrintArray(Array);
 
+/* void PrintArray(int[] col)
+{
+    int count = col.Length;
+    int position = 0;
+    while (position < count)
+    {
+        Console.WriteLine(col[position]);
+        position++;
+    }
+
+}
+
+int newNumber()  // Конструкция Функции Ввода разных параметров.
+{
+    System.Console.WriteLine("Введите параметр: ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+int a = newNumber();
+
+int[] Array = {a};
+FillArray(Array);
+PrintArray(Array);
+*/
