@@ -15,7 +15,7 @@ void VuvodCelih(int n)
         Console.Write($"{n}, ");
         VuvodCelih(n-1);
     } 
-   
+    else return;
 }
 
 System.Console.Write("Поиск всех натуральных чисел в промежутке от n до 1: n = ");

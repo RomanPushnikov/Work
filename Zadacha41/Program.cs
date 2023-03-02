@@ -4,9 +4,9 @@ Console.Clear();
 
 int moreThen0 = 0;
 
-Console.Write("Введите необходимые числа: ");
+Console.Write("Введите необходимые числа через пробел: ");
 string? str = Console.ReadLine(); // вводим строку
-var array = str.Split(", "); // строку делим по пробелу
+var array = str.Split(" "); // строку делим по пробелу
 
 int[] arrayInt = new int[array.Length]; // переводим в int
 
